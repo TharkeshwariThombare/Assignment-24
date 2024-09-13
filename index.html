@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+       
+        .menus{
+            background-color:pink;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+    
+        }
+        .menu-icon{
+            height: 30px;
+            width: 30px;
+            margin-left: 10px;
+
+        }
+        .menu-item{
+            margin-right: 25px;
+            cursor: pointer;
+            display: flex;
+        }
+        .page-heading{
+            text-align: center;
+            font-size: 60px;
+        }
+
+        .header-content{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content{
+            font-size:25px;
+            text-align: center;
+        }
+        
+        .beauty{
+            width:1500px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .spa-heading{
+            text-align: center;
+        }
+        .beauty1{
+            width: 1500px;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+            text-align: center;
+            object-fit: cover;
+        }
+        /*Mobile Devices*/
+        @media screen and (max-width: 500px) {
+        .menus{
+            background-color:pink;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+    
+        }
+        .menu-icon{
+            height: 15px;
+            width: 15px;
+            margin-left: 10px;
+
+        }
+        .menu-item{
+            margin-right:10px;
+            cursor: pointer;
+            display: flex;
+        }
+        .page-heading{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .header-content{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content{
+            font-size:15px;
+            text-align: center;
+        }
+        
+        .beauty{
+            width:460px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .spa-heading{
+            text-align: center;
+        }
+        .beauty1{
+            width: 460px;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+            text-align: center;
+            object-fit: cover;
+        }
+        
+            
+        }
+
+        /*Tablet Devices*/
+        @media screen and (min-width: 501px) and (max-width: 768px) {
+        .menus{
+            background-color:pink;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+    
+        }
+        .menu-icon{
+            height: 25px;
+            width: 25px;
+            margin-left: 10px;
+
+        }
+        .menu-item{
+            margin-right:10px;
+            cursor: pointer;
+            display: flex;
+        }
+        .page-heading{
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .header-content{
+            justify-content: center;
+            align-items: center;
+            margin-left: 120px;
+        }
+
+        .content{
+            font-size:20px;
+            text-align: center;
+            margin-right: 120px;
+        }
+        
+        .beauty{
+            width:500px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .spa-heading{
+            text-align: center;
+        }
+        .beauty1{
+            width: 500px;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+            text-align: center;
+            object-fit: cover;
+        }
+        
+
+        }
+
+        /*Desktop Devices*/
+        @media screen and (min-width: 769px) {
+
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="menus">
+        <span class="menu-item">
+            <img src="./homepage.png" class="menu-icon" alt="Homepage">
+            Homepage
+        </span>
+        <span class="menu-item">
+            <img src="./About us.png" class="menu-icon" alt="About Us">
+            About Us
+        </span>
+        <span class="menu-item">
+            <img src="./service.png" class="menu-icon" alt="Service">
+            Service
+        </span>
+        <span class="menu-item">
+            <img src="./Contact.png" class="menu-icon" alt="Contact">
+            Contact
+        </span>
+        <span class="menu-item">
+            <img src="./booking.png" class="menu-icon" alt="Booking">
+            Booking
+        </span>
+    </div>
+    <h1 class="page-heading">
+        <hr>
+        Beauty Parlour💄💅
+        <hr>
+    </h1>
+
+    <div class="header-content">
+        <img src="./beautyparlour.jpeg" class="beauty" alt="beauty parlour">
+
+    <div class="content">
+        <p>
+            A beauty parlour, also known as a beauty salon,
+             is a specialized establishment where clients receive a variety of personal care and
+              cosmetic treatments designed to enhance their appearance and promote relaxation.
+        </p>
+        </div>
+    </div>
+
+</div>
+<h1 class="spa-heading">
+    <hr>
+    Spa
+    <hr>
+</h1>
+
+<div class="header-content">
+    <img src="./spa.png" class="beauty1" alt="beauty parlour">
+
+<div class="content">
+    <p>
+        A spa is a facility designed to offer a range of health, wellness, and relaxation treatments aimed at enhancing overall well-being.
+        The atmosphere of a spa is typically serene and tranquil, providing a retreat from the hustle and bustle of daily life.
+        A spa is designed to be a sanctuary for relaxation and rejuvenation, offering a range of treatments that cater to physical, mental, and emotional well-being.
+        The focus is on providing a holistic experience that helps clients unwind, recharge, and improve their overall quality of life.
+    </p>
+    </div>
+</div>
+    
+<h1 class="spa-heading">
+    <hr>
+    Facial
+    <hr>
+</h1>
+
+<div class="header-content">
+    <img src="./facial.png" class="beauty1" alt="beauty parlour">
+
+<div class="content">
+    <p>
+        A facial is a popular skincare treatment designed to improve the health, appearance, and texture of the skin on the face.
+         Facials can address various skin concerns, including acne, aging, dryness, and dullness.A facial is a comprehensive skincare treatment that enhances the overall health and appearance of the skin through a combination of cleansing, exfoliation, and targeted treatments.
+          It is customized to address individual skin needs and concerns, offering both aesthetic and therapeutic benefits.
+    </p>
+    </div>
+</div>
+
+<h1 class="spa-heading">
+    <hr>
+    Makeup
+    <hr>
+</h1>
+
+<div class="header-content">
+    <img src="./makeup1.png" class="beauty1" alt="beauty parlour">
+
+<div class="content">
+    <p>
+        Makeup involves the application of various cosmetic products to enhance or alter the appearance of the face and body. 
+        It can be used to accentuate features, create artistic looks, or achieve a polished everyday appearance.
+        Makeup is a versatile tool for enhancing natural beauty, expressing creativity, and achieving a polished appearance.
+         Whether for everyday wear or special occasions, makeup can transform and elevate one’s look with various products and techniques.
+    </p>
+    </div>
+</div>
+
+<h1 class="spa-heading">
+    <hr>
+    Haircare
+    <hr>
+</h1>
+
+<div class="header-content">
+    <img src="./haircare.png" class="beauty1" alt="beauty parlour">
+
+<div class="content">
+    <p>
+        Hair care encompasses the practices and products used to maintain the health, cleanliness, and appearance of hair. 
+        It involves a range of activities designed to address different hair types and concerns, ensuring that hair remains strong, shiny, and manageable.
+        Hair care is a holistic practice that involves maintaining the cleanliness, health, and appearance of hair through various products and techniques.
+        Tailoring your hair care routine to your specific hair type and concerns ensures that your hair remains in its best possible condition.
+    </p>
+    </div>
+</div>
+</body>
+</html>
